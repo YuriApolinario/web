@@ -3,7 +3,7 @@
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
--->w
+-->
 <html>
     <head>
         <title>TODO supply a title</title>
@@ -26,9 +26,9 @@ and open the template in the editor.
         <!--tudo Que for- fluid ocupa a largura toda da pagina-->
         <div class="container">
             <!--Ésta é a linha do topo-->
-            <div class="">
-                Menu horizontal (navbar)
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="row">
+                <div class="col" >   
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="#">Navbar</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -52,13 +52,16 @@ and open the template in the editor.
     </form>
   </div>
 </nav>
-            </div>
+                    </div>
+            </div> <br>
             <!-------------------------------------------------------------------->
 
             <!--linha de conteudo-->
             <div class="row text-primary">
-                <div class="col">
-                    Categorias
+                <div class="col-2">
+                    <button type="" class="list-group-item list-group-item-action"disabled >categorias</button><br>
+
+                    
                     <!---------------------------------------------->
                     <div class="list-group-item-action">
   <button type="button" class="list-group-item list-group-item-action active">
@@ -67,12 +70,14 @@ and open the template in the editor.
   <button type="button" class="list-group-item list-group-item-action">Quadros</button>
   <button type="button" class="list-group-item list-group-item-action">Canecas</button>
   <button type="button" class="list-group-item list-group-item-action">Chaveiros</button>
-  <button type="button" class="list-group-item list-group-item-action" disabled>Kits</button>
+  <button type="button" class="list-group-item list-group-item-action">Kits</button>
 </div>
                 </div>
 
-                <div class="col-9">
-                    Conteudo
+                <div class="col-10">
+                    <button type="" class="list-group-item list-group-item-action"disabled >conteudo</button><br>
+
+                    
                     
                     <!------------------------------------------------------------------>
                     <div class="card" style="width: 20rem;">
@@ -90,7 +95,7 @@ and open the template in the editor.
     <h4 class="card-title">Chaveiro STAR WARS</h4>
     <p class="card-text">Chaveiro STAR WARS boba feet</p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div></div>
+  </div></div><br>
                 <div class="card" style="width: 20rem;">    
    <div class="card-body">
     <h4 class="card-title">Chaveiro STAR WARS</h4>
@@ -107,7 +112,7 @@ and open the template in the editor.
 
 
             <!--linha do roda pé-->
-            <div class="row ">
+            <div class="row " class="text-primary">
                 <div class="col">
                     <h4>Departamentos</h4>
                 </div>
